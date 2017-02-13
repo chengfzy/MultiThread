@@ -19,7 +19,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>NotSet</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -80,7 +80,9 @@
     <ClInclude Include="Constants.h" />
     <ClInclude Include="CriticalSectionThreadSync.h" />
     <ClInclude Include="EventThreadSync.h" />
+    <ClInclude Include="MutexThreadSync.h" />
     <ClInclude Include="PulseEventThread.h" />
+    <ClInclude Include="SemaphoreThreadSync.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
