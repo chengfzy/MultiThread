@@ -2,6 +2,8 @@
 #include "CriticalSectionThreadSync.h"
 #include "EventThreadSync.h"
 #include "PulseEventThread.h"
+#include "MutexThreadSync.h"
+#include "SemaphoreThreadSync.h"
 
 int main()
 {
@@ -16,6 +18,14 @@ int main()
 	//3.使用PulseEvent
 	cout << "\n=========================== Pulse Event ===========================" << endl;
 	TestPulseEvent();
+
+	//4.使用Mutex
+	cout << "\n=========================== Mutex ===========================" << endl;
+	TestMutex();
+	
+	//5.使用Semaphore
+	cout << "\n=========================== Semaphore ===========================" << endl;
+	TestSemaphore();
 
 	system("pause");
 	return 0;
