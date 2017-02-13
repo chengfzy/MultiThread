@@ -32,5 +32,11 @@
     <ClInclude Include="PulseEventThread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MutexThreadSync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SemaphoreThreadSync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
