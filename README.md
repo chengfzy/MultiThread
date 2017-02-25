@@ -4,6 +4,9 @@ Study Code for MultiThread in C++
 ## Content
 1. Eg01_CreateThread: 创建线程: CreateThread(), _beginthreadex().原子操作: InterlockedXXX()
 2. Eg02_ThreadSync: 线程同步, Critical Section, Event, PulseEvent, Mutex, Semaphore
+3. Eg03_ProducerConsumer: 生产者消费者问题, 1个消费者或多个消费者的情况
+4. Eg04_ReaderWriter: 读者写者问题
+5. Eg05_SRWLock: 读写销SRWLock，专门处理读者写者问题
 
 ## NOTE
 ### Eg01: 创建线程,原子操作
@@ -27,3 +30,9 @@ PulseEvent: 将事件触发后立即将事件设置为未触发，相当于触�
 
 1. 对于手动置位事件，所有正处于等待状态下线程都变为可调度状态
 2. 对于自动置位事件，所有正处于等待状态下线程只有一个可变成可调度状态
+
+## Eg05: 读写销SRWLock: 不用删除，系统自动清理
+
+SRWLock: InitializeSRWLock,  不用删除，系统自动清理
+
+AcquireSRWLockExclusive, ReleaseSRWLockExclusive, AcquireSRWLockShared, ReleaseSRWLockShared
