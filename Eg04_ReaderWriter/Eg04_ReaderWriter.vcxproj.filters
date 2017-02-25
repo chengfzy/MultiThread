@@ -18,5 +18,5 @@
     <ClCompile Include="Eg04_Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>a
+  </ItemGroup>
 </Project>
