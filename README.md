@@ -2,11 +2,15 @@
 Study Code for MultiThread in C++
 
 ## Content
+Eg01 - Eg05: Windows的多线程方法, Eg06-: C++ thread的方法
 1. Eg01_CreateThread: 创建线程: CreateThread(), _beginthreadex().原子操作: InterlockedXXX()
 2. Eg02_ThreadSync: 线程同步, Critical Section, Event, PulseEvent, Mutex, Semaphore
 3. Eg03_ProducerConsumer: 生产者消费者问题, 1个消费者或多个消费者的情况
 4. Eg04_ReaderWriter: 读者写者问题
 5. Eg05_SRWLock: 读写销SRWLock，专门处理读者写者问题
+6. Eg06_ThreadBasic: Basic use of multithread
+7. Eg07_ThreadVector: Thread Vector,使用thread组成线程池，操作同一个对象
+
 
 ## NOTE
 ### Eg01: 创建线程,原子操作
