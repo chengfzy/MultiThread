@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eg06_ThreadBasic", "Eg06_Th
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eg07_ThreadVector", "Eg07_ThreadVector\Eg07_ThreadVector.vcxproj", "{31F10704-990B-4CC4-B4AF-A66EBB2CD5E5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eg08_StdProducerConsumer", "Eg08_StdProducerConsumer\Eg08_StdProducerConsumer.vcxproj", "{AC1D2A7C-CE2A-4B3E-84EE-CCEBE708223D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -79,6 +81,14 @@ Global
 		{31F10704-990B-4CC4-B4AF-A66EBB2CD5E5}.Release|x64.Build.0 = Release|x64
 		{31F10704-990B-4CC4-B4AF-A66EBB2CD5E5}.Release|x86.ActiveCfg = Release|Win32
 		{31F10704-990B-4CC4-B4AF-A66EBB2CD5E5}.Release|x86.Build.0 = Release|Win32
+		{AC1D2A7C-CE2A-4B3E-84EE-CCEBE708223D}.Debug|x64.ActiveCfg = Debug|x64
+		{AC1D2A7C-CE2A-4B3E-84EE-CCEBE708223D}.Debug|x64.Build.0 = Debug|x64
+		{AC1D2A7C-CE2A-4B3E-84EE-CCEBE708223D}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC1D2A7C-CE2A-4B3E-84EE-CCEBE708223D}.Debug|x86.Build.0 = Debug|Win32
+		{AC1D2A7C-CE2A-4B3E-84EE-CCEBE708223D}.Release|x64.ActiveCfg = Release|x64
+		{AC1D2A7C-CE2A-4B3E-84EE-CCEBE708223D}.Release|x64.Build.0 = Release|x64
+		{AC1D2A7C-CE2A-4B3E-84EE-CCEBE708223D}.Release|x86.ActiveCfg = Release|Win32
+		{AC1D2A7C-CE2A-4B3E-84EE-CCEBE708223D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
